@@ -24,7 +24,7 @@ const Navbar = () => {
             <KeyboardArrowDownIcon />
           </div>
           <div className="item">
-            <Link className="link" t="/products/1">
+            <Link className="link" to="/products/1">
               Women
             </Link>
           </div>
@@ -73,7 +73,7 @@ const Navbar = () => {
             <FavoriteBorderOutlineIcon />
             <div className="cartIcon" onClick={() => setOpen(!open)}>
               <ShoppingCartOutlinedIcon />
-              <span></span>
+              <span>0</span>
             </div>
           </div>
         </div>
